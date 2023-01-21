@@ -116,7 +116,7 @@ namespace ExtraDreamshields
                 });
             }
 
-            else if (self.gameObject.transform.parent.name == "Orbit Shield(Clone)" && self.gameObject.name == "Shield" && self.FsmName == "Shield Hit")
+            else if (self.gameObject.transform.parent?.name == "Orbit Shield(Clone)" && self.gameObject.name == "Shield" && self.FsmName == "Shield Hit")
             {
                 self.AddFsmTransition("Idle", "DREAMSHIELD SLASH", "Slash Anim");
                 self.AddFsmState("Send Break");

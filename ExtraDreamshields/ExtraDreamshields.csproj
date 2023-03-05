@@ -10,7 +10,7 @@
     <Copyright>Copyright © Exempt-Medic 2023</Copyright>
     <Authors>Exempt-Medic</Authors>
     <NoWarn>7035</NoWarn>
-    <AssemblyVersion>0.5.1.*</AssemblyVersion>
+    <AssemblyVersion>0.7.0.*</AssemblyVersion>
     <Deterministic>false</Deterministic>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <LangVersion>latest</LangVersion>
@@ -82,6 +82,9 @@
     </Reference>
     <Reference Include="PlayMaker">
       <HintPath>$(HollowKnightRefs)/PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="Satchel">
+      <HintPath>$(HollowKnightRefs)/Mods/Satchel/Satchel.dll</HintPath>
     </Reference>
     <Reference Include="SFCore">
       <HintPath>$(HollowKnightRefs)/Mods/SFCore/SFCore.dll</HintPath>

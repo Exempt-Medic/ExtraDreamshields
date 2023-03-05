@@ -1,3 +1,3 @@
 ﻿# ExtraDreamshields
 
-A Hollow Knight mod that adds three more Dreamshields. Requires SFCore.
+A Hollow Knight mod that lets you add extra Dreamshields.
